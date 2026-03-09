@@ -1,0 +1,30 @@
+root: {
+  sb_color:  #4F9D9D;
+}
+
+@keyframe rainbow-color {
+  0% {
+    color:  #ffffff;
+  }
+
+  25% {
+    color: #BEBEBE;
+  }
+
+  50% {
+    color: 	#8E8E8E;
+  }
+
+  75% {
+    color: #4F4F4F;
+  }
+
+  100% {
+    color:	#000000
+  }
+}
+
+h1 {
+  color:  var(sb_color);
+  background:linear-gradient(90deg,#ff6d1b,#fe5,#5bff89,#4d8aff,#6b5fff,#ff64f9,#ff6565);
+}
