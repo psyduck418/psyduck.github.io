@@ -24,6 +24,12 @@ root: {
   }
 }
 
+body {
+  width: 100vw !important;
+  height: 100vh !important;
+  background: url(https://i.pinimg.com/1200x/0d/60/77/0d60773acd18b5667d2f668611f85575.jpg)
+}
+
 h1 {
   color:  var(sb_color);
   background:linear-gradient(90deg,#ff6d1b,#fe5,#5bff89,#4d8aff,#6b5fff,#ff64f9,#ff6565);
